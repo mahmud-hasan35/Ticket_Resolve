@@ -1,9 +1,9 @@
 import React, { Suspense } from 'react'
 
 import AvailableTickets from './Components/AvailableTicket/AvailableTickets'
-import Navbar from './navbar/Navbar'
 import ProgressCard from './components/ProgressCord/ProgressCard'
 import ResolvedCard from './components/ResolvedCard/ResolvedCard'
+import Navbar from './Navbar/Navbar'
 
  
   const fetchTickets = async() => {

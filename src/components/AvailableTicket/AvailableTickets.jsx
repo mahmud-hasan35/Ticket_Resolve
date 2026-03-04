@@ -1,6 +1,6 @@
 import React, { use } from 'react'
-import Sidebar from '../../sidebar/Sidebar';
 import TicketCard from '../TicketCard/TicketCard';
+import Sidebar from '../../Sidebar/Sidebar';
 
 
 
