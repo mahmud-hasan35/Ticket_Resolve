@@ -2,6 +2,8 @@ import React, { use } from 'react'
 import TicketCard from '../TicketCard/TicketCard';
 import Sidebar from '../../sidebar/Sidebar';
 
+
+
 export default function AvalibleTickets({promiseTickets}) {
   const ticketsData = use(promiseTickets)  
   return (
