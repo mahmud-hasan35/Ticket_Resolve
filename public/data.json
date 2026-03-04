@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "User cannot access the login page after clicking the login button. The page remains blank and does not respond even after multiple refresh attempts.",
+    "customer": "ABC Corporation",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway error",
+    "description": "Payment fails during checkout process and users receive an unexpected transaction failure message without proper explanation.",
+    "customer": "XYZ Ltd",
+    "priority": "CRITICAL",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Profile update issue",
+    "description": "Users are unable to update their profile information including name and contact details. Changes are not being saved in the database.",
+    "customer": "Global Tech",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2026-02-28"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard slow performance",
+    "description": "Dashboard takes too long to load after login, especially when multiple widgets and reports are enabled for the user.",
+    "customer": "NextGen Solutions",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "createdAt": "2026-02-27"
+  },
+  {
+    "id": 5,
+    "title": "Email notification not sent",
+    "description": "System does not send confirmation email after registration. Users are not receiving verification or welcome messages.",
+    "customer": "Bright Future Inc",
+    "priority": "LOW",
+    "status": "Closed",
+    "createdAt": "2026-02-25"
+  },
+  {
+    "id": 6,
+    "title": "Search feature not working",
+    "description": "Search results do not appear for valid keywords. The system returns empty results even when matching records exist.",
+    "customer": "Skyline Group",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 7,
+    "title": "Broken image on homepage",
+    "description": "Hero section image is not displaying properly on the homepage and shows a broken placeholder icon instead.",
+    "customer": "Tech World",
+    "priority": "LOW",
+    "status": "Closed",
+    "createdAt": "2026-02-26"
+  },
+  {
+    "id": 8,
+    "title": "Unable to reset password",
+    "description": "Password reset link redirects users to an error page instead of allowing them to securely update their credentials.",
+    "customer": "SoftEdge",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "title": "Data export malfunction",
+    "description": "Exported CSV file contains incomplete and mismatched data which affects reporting and external analysis.",
+    "customer": "Alpha Systems",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "createdAt": "2026-02-24"
+  },
+  {
+    "id": 10,
+    "title": "Mobile responsiveness issue",
+    "description": "UI layout breaks on smaller screen devices causing misaligned elements and overlapping content sections.",
+    "customer": "Beta Innovations",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  }
+]
