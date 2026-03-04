@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
-import AvalibleTickets from './components/availableTicket/avalibleTickets'
+
+import AvailableTickets from './Components/AvailableTicket/AvailableTickets'
 import Navbar from './navbar/Navbar'
 import ProgressCard from './components/ProgressCord/ProgressCard'
 import ResolvedCard from './components/ResolvedCard/ResolvedCard'
@@ -43,7 +44,7 @@ const promiseTickets = fetchTickets()
 
 
       <Suspense fallback={'Data loading ......'}>
-    <AvalibleTickets promiseTickets={promiseTickets}></AvalibleTickets>
+    <AvailableTickets promiseTickets={promiseTickets}></AvailableTickets>
 
       </Suspense>
 

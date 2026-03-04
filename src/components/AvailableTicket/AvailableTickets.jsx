@@ -1,10 +1,10 @@
 import React, { use } from 'react'
-import TicketCard from '../TicketCard/TicketCard';
 import Sidebar from '../../sidebar/Sidebar';
+import TicketCard from '../TicketCard/TicketCard';
 
 
 
-export default function AvalibleTickets({promiseTickets}) {
+export default function AvailableTickets({promiseTickets}) {
   const ticketsData = use(promiseTickets)  
   return (
     <div className="bg-gray-100 min-h-screen p-6">
