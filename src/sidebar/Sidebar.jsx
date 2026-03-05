@@ -25,7 +25,7 @@ export default function Sidebar({selectedTicket, handleCompleted}) {
 
   <button
     onClick={() => handleCompleted(ticket.id)}
-    className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-xs font-medium transition duration-200 shadow-sm hover:shadow-md"
+    className="bg-green-500 cursor-pointer hover:bg-green-600 text-white px-4 py-2 rounded-lg text-xs font-medium transition duration-200 shadow-sm hover:shadow-md"
   >
     Complete
   </button>

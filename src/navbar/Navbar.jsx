@@ -15,9 +15,11 @@ export default function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li><a>All Tickets</a></li>
-            <li><a>Open</a></li>
-            <li><a>Closed</a></li>
+            <li><a>Home</a></li>
+            <li><a>FAQ</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Download</a></li>
+            <li><a>Contact</a></li>
           </ul>
         </div>
 
@@ -31,9 +33,11 @@ export default function Navbar() {
         
         {/* Hide on mobile */}
         <ul className="menu menu-horizontal px-1 hidden lg:flex">
-          <li><a>All Tickets</a></li>
-          <li><a>Open</a></li>
-          <li><a>Closed</a></li>
+          <li><a>Home</a></li>
+            <li><a>FAQ</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Download</a></li>
+            <li><a>Contact</a></li>
         </ul>
 
         <a className="btn flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-purple-500 text-white border-none">
