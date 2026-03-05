@@ -1,11 +1,16 @@
-import React, { use } from 'react'
+import React, { use} from 'react'
 import TicketCard from '../TicketCard/TicketCard';
 import Sidebar from '../../Sidebar/Sidebar';
 
 
 
-export default function AvailableTickets({promiseTickets}) {
-  const ticketsData = use(promiseTickets)  
+export default function AvailableTickets({promiseTickets, handleAddTicket,selectedTicket, handleCompleted}) {
+  const ticketsData = use(promiseTickets)
+  
+ 
+ 
+
+
   return (
     <div className="bg-gray-100 min-h-screen p-6">
 
@@ -20,7 +25,10 @@ export default function AvailableTickets({promiseTickets}) {
             
 
             {
-              ticketsData?.map((tickets) => <TicketCard key={tickets.id} tickets = {tickets}></TicketCard>)
+              ticketsData?.map((tickets) => <TicketCard 
+               key={tickets.id} tickets = {tickets}
+              onAdd={handleAddTicket}
+               ></TicketCard>)
             }
           
           </div>
@@ -28,7 +36,7 @@ export default function AvailableTickets({promiseTickets}) {
 
         {/* Task Status Sidebar */}
         
-       <Sidebar></Sidebar>
+       <Sidebar selectedTicket={selectedTicket} handleCompleted={handleCompleted}></Sidebar>
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function TicketCard({ tickets }) {
-    console.log(tickets);
+export default function TicketCard({ tickets, onAdd }) {
+    
     const {title,status,priority,description,createdAt,customer} = tickets
 
 
     
   return (
-     <div className="bg-white rounded-xl shadow-sm p-5 hover:shadow-md transition">
+     <div onClick={() => onAdd(tickets)} className="bg-white cursor-pointer rounded-xl shadow-sm p-5 hover:shadow-md transition">
       
       <div className="flex justify-between items-start mb-3">
         <h3 className="font-semibold text-gray-800 text-sm">
